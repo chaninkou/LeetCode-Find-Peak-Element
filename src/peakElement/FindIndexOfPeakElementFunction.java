@@ -1,6 +1,7 @@
 package peakElement;
 
 public class FindIndexOfPeakElementFunction {
+	// Two pointer method to solve it in O(logn)
 	public int findPeakElement(int[] nums){
 		// Left pointer is start
 		int left = 0;
@@ -10,7 +11,7 @@ public class FindIndexOfPeakElementFunction {
 		
 		// If both pointer haven't meet at the same spot yet, continue
 		while(left < right){
-			// Getting the middle value, if its even, get the left value 
+			// Getting the middle value using a technique that prevent negative
 			int mid = left + (right - left) / 2;
 			
 			// If the right value of mid is bigger, then move the left pointer
