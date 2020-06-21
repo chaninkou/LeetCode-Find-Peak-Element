@@ -7,9 +7,8 @@ public class FindIndexOfPeakElementFunction {
 		
 		int right = nums.length - 1;
 		
-		// If both pointer haven't meet at the same spot yet, continue
 		while(left < right){
-			// Getting the middle value using a technique that prevent negative
+			// Using a technique that prevent negative value
 			int mid = left + (right - left) / 2;
 			
 			// If the right value of mid is bigger, then move the left pointer
