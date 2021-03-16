@@ -1,4 +1,4 @@
-package peakElement;
+package leetcode162;
 
 public class FindIndexOfPeakElementFunction {
 	// Two pointer method to solve it in O(logn)

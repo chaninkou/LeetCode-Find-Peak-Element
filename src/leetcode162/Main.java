@@ -1,4 +1,4 @@
-package peakElement;
+package leetcode162;
 
 import java.util.Arrays;
 
